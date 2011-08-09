@@ -6,7 +6,7 @@ import javax.microedition.lcdui.*;
 //import javax.microedition.lcdui.Graphics;
 
 /**
- * @author Josue Cabrera, Luisa Portillo, Pablo Montenegro
+ * @author Josue
  */
 public class PrincipalMidlet extends MIDlet implements CommandListener {
     private Command exit;
