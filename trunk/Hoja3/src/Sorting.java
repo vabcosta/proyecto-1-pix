@@ -93,7 +93,27 @@ public class Sorting {
      * @param data
      * @param left
      * @param right 
-     */
+     */public static void selectionSort(int data[], int n)
+        // pre: 0 <= n <= data.length
+        // post: values in data[0..n-1] are in ascending order
+        {
+        int numUnsorted = n;
+        int index; // general index
+        int max; // index of largest value
+        while (numUnsorted > 0)
+        {
+            // determine maximum value in array
+            max = 0;
+            for (index = 1; index < numUnsorted; index++)
+            {
+                if (data[max] < data[index]) max = index;
+            }
+            swap(data,max,numUnsorted-1);
+            numUnsorted--;
+        }
+        }
+    
+    
     private static void quickSortRecursive(int[] data,int left,int right){
         // pre: left <= right 
         // post: data[left..right] in ascending order 
