@@ -8,7 +8,7 @@ import java.lang.String;
 
 
 /**
- * @author Josue Cabrera
+ * @author Josue Cabrera, Luisa Portillo y Pablo 
  * Carné 10018
  * Proyecto No. 1.
  * Desarrollo de Juego PIX. El cual trata de imitar la herramienta de Rurple y Robomind.
