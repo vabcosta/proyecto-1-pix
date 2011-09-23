@@ -33,6 +33,7 @@ public class SimulacionBanco {
         // Creacion de variables
         int r, c, timeE, numeroClientes, prom=0;
         //--------------------------------------------------------------
+        
         do{
             menu();
             r = (int)obtenerNumero("Seleccione la opcion que desea realizar:  ", true);
