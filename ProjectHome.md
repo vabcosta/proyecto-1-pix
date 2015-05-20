@@ -1,0 +1,1 @@
+Con el siguiente programa el motivo principal es simular a Robo Mind, en donde se desea utilizar en diferentes dispositivos móviles.
